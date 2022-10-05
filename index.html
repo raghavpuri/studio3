@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDev Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="cs1300-gallery">
+      <h1 class = "heading-one">Welcome to my bakery</h1>
+      <p class = "para-one">Add your own images and styles!</p>
+
+      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+      <div class="gallery-container">
+        <div class = "flex-body"><img class="gallery-item" src="./assets/c1.jpeg" alt="item one"></div>
+        <div class = "flex-body"><img class="gallery-item" src="./assets/c2.jpeg" alt="item two"></div>
+        <div class = "flex-body"><img class="gallery-item" src="./assets/c3.jpeg" alt="item three"></div>
+        <div class = "flex-body"><img class="gallery-item" src="./assets/c4.jpeg" alt="item four"></div>
+        <div class = "flex-body"><img class="gallery-item" src="./assets/c5.jpeg" alt="item five"></div>
+        <div class = "flex-body"><img class="gallery-item" src="./assets/c6.jpeg" alt="item six"></div>
+      </div>
+
+      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
+      <button onclick="updatePage()">Press this button to display some fruit data</button>
+      <div id = "text-disp"></div>
+    </div>
+  </body>
+
+</html>
